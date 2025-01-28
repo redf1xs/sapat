@@ -15,13 +15,13 @@
         ]
       }
     },
-    "_mounts": [
-      {
-        "source": "${localEnv:HOME}",
-        "target": "${containerWorkspaceFolder}/con-home",
-        "type": "bind"
-      }
-    ],
+    //"_mounts": [
+      //{
+        //"source": "${localEnv:HOME}",
+        //"target": "${containerWorkspaceFolder}/con-home",
+        //"type": "bind"
+      //}
+    //],
     "remoteUser": "vscode",
     "onCreateCommand": {
       "update": "sudo apt update && sudo apt upgrade -y",
